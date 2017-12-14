@@ -18,6 +18,6 @@ function iLoveTheBeatles(n){
   do {
     arr.push("I love the Beatles!");
     n = n - 1;
-  } while (n < 15 && n > 0);
+  } while (n < 15 && n >= 0);
   return arr;
 }
